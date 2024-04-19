@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jumar Registration Form</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Registration Form</h2>
+                    <div class="inputbox">
+                        <ion-icon name="people-outline"></ion-icon>
+                        <label for="">First Name:</label>
+                        <input type="text" required>
+                        
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="people-outline"></ion-icon>
+                        <label for="">Last Name:</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <label for="">User Name:</label>
+                        <input type="text" required>   
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <label for="">Password:</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="bag-check-outline"></ion-icon>
+                        <label for="">Confirm Password:</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <label for="">Email:</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <label for="">Mobile Number:</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="radios">
+                        <ion-icon name="transgender-outline"></ion-icon>
+                        <label for="">Gender: </label> <input type="radio"> Male <input type="radio"> Female <input type="radio"> Others
+                    </div>
+                    <div class="radios">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                        <label for="birthday">Birthday: </label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                    <div class="radios">
+                        <ion-icon name="book-outline"></ion-icon>
+                        <label for="cars">Course: </label>
+                        <select name="cars" id="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <div class="radios">
+                        <ion-icon name="flag-outline"></ion-icon>
+                        <label for="">Nationality:</label><input type="radio"> Filipino <input type="radio"> Others
+                    </div>
+                    <div>
+                        <ion-icon name="image-outline"></ion-icon>
+                        Profile Picture:<input type="file" id="myFile" name="filename">
+                    </div>
+                    <Button>
+                        Submit
+                    </Button> 
+                    <Button>
+                        Reset
+                    </Button>
+                </form>
+            </div>
+        </div>
+    </section>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
